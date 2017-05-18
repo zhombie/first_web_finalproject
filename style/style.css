@@ -1,0 +1,251 @@
+body{
+	font-family: tahoma,arial,verdana,sans-serif;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+.content{
+	margin: 0 auto;
+	width: 1200px;
+}
+.blogNav{
+    font-size: 16px;
+    background-color: #4e729a;
+	height: 70px;
+    margin: 0 auto;
+    width: 1200px;
+}
+.fixedMenu{
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;        
+    z-index: 9999;
+}
+.blogNav a:link, .blogNav a:visited, .blogNav a:active{
+    color: #e8eff7;
+    display: block;
+    float: left;
+	height: 45px;
+    padding: 25px 20px 0px 20px;
+    text-decoration: none;
+}
+.blogNav a:hover{
+	background-color: #597da3;
+	color: #FFFFFF;
+}
+#href{
+	color: #e8eff7;
+	float: right;
+	text-decoration: none;
+}
+#info{
+	font-size: 26px;
+	margin: 20px auto;
+}
+.slider{
+	box-shadow: 3px 3px 3px 3px black;
+	margin-left: -50px;
+	background-color: #a3a3a3; 
+	height: 500px;
+	margin-top: 50px;
+	width: 1300px;
+}
+.back{
+	left: 60;
+}
+.forward{
+	right: 60;
+}
+.back a:link, .back a:visited, .back a:active, .forward a:link, .forward a:visited, .forward a:active{
+	color: black;
+}
+.back, .forward{
+	color: #ccc;
+	font-size: 200%;
+	margin: 6em -1em 0;
+	position: absolute;
+}
+.back a:hover, .forward a:hover{
+	color: #ff9900;
+}
+.name{
+	color: white;
+	font-size: 90px;
+	margin-left: 50px;
+	margin-top: -150px;
+	position: absolute;
+	z-index: 9998;
+}
+.logo{
+	height: 500px;
+	margin-left: -50px;
+	width: 1300px !important; 
+}
+.body{
+	background-color: #4e729a; 
+	height: 600px;
+}
+.loginblock{
+	background-color: #fff;
+	border: 3px solid black;
+	color: #000;
+	font-size: 20px;
+	margin: 0 auto;
+	margin-top: 100px;
+	padding: 30px;
+	text-align: center;
+	text-shadow: 2px 2px 2px black;
+	width: 500px;
+}
+.loginblock a{
+	color: #000;
+	text-decoration: none;
+}
+.loginblock .button{
+	float: right;
+}
+.input{
+	font-size: 16px;
+	padding: 7px;
+}
+.table{
+	font-size: 20px;
+	margin: 10px auto;
+	padding: 10px;
+}
+.img{
+	height: 180px;
+	width: 270px;
+}
+.rows{
+	//border: 1px solid black;
+	padding: 10px; 
+	text-align:center;
+	width: 700px;
+}
+.rows a{
+	color: #000000;
+	cursor: pointer;
+	text-decoration: none;
+}
+.univers{
+	margin-top: 50px;
+}
+.p{
+	color: black;
+	font-size: 18px;
+	text-align: center;
+}
+.table_cities tr{
+	border: 1px solid black;
+}
+.rows_cities{
+	padding: 10px;
+	font-size: 25px;
+	border: 1px solid black;
+	border-radius: 4px;
+	//background-color: #4e729a;
+}
+.rows_cities a{
+	text-decoration: none;
+	color: #000;
+}
+.rows_cities a:hover{
+	cursor: pointer;
+	color: #e8eff7;
+}
+.table_cities{
+	//border: 1px solid black;
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+}
+a{
+	text-decoration: none;
+}
+.profilePage{
+	margin-top: 50px;
+}
+.univerName{
+	padding-left: 5px;
+	font-size: 25px;
+}
+.univerImg{
+	float: left;
+	padding: 10px;
+	width: 320px;
+	border-right: 1px groove; 
+}
+.infoName, .infoYear, .infoSite, .infoLocation, .infoNumber{
+	padding: 10px;
+}
+.infoName span, .infoYear span, .infoSite span, .infoLocation span, .infoNumber span{
+	color: #4e729a;
+}
+.infoSite a:hover{
+	cursor: pointer;
+	color: #ff9900;
+}
+.information{
+	padding: 0px 0px 0px 50px;
+}
+.information td{
+	padding: 0px 20px 10px 0px;
+}
+.univerHistory::first-letter{
+	color: #4e729a;
+	font-size: xx-large;
+	padding-left: 30px;
+}
+.editimg{
+	position: absolute;
+	height: 30px;
+	width: 30px;
+	top: 30%;
+	left: 85%;
+}
+
+.univerHistory{
+	font-size: 20px;
+	padding: 30px;
+}
+.manage_table{
+	text-align: center;
+	margin: 0 auto;
+	width: 100%;
+	border: 1px solid black;
+}
+.manage_table td{
+	border: 1px solid black;
+}
+.footer{
+	background-color: #4e729a;
+	color: white;
+	height: 40px;
+	margin: 50px auto 0;
+	padding: 25px 0px 0px;
+	text-align: center;
+	width: 100%;
+}
+.listy{
+	border: 1px solid black;
+    font-size: 16px;
+    background-color: #ffffff;
+	height: 70px;
+    margin: 0 auto;
+    width: 1200px;
+}
+.listy a:link, .listy a:visited, .listy a:active{
+    text-align: center;
+    color: #2f5879;
+    display: block;
+    height: 45px;
+    padding: 25px 20px 0px 20px;
+    text-decoration: none;
+}
+.listy a:hover{
+	background-color: #597da3;
+	color: #FFFFFF;
+}
